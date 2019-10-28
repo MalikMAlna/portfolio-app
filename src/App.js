@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = { displayBio: false };
-    console.log("Component this", this);
-    this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-  }
+  state = { displayBio: false };
+  // No longer needed with state at the top.
 
-  toggleDisplayBio() {
+  // constructor() {
+  //   super();
+  //   console.log("Component this", this);
+  //   this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
+  // }
+
+  toggleDisplayBio = () => {
     this.setState({displayBio: !this.state.displayBio});
   }
 
