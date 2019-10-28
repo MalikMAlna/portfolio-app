@@ -3,7 +3,13 @@ import React, { Component } from "react";
 class App extends Component {
   constructor() {
     super();
-    this.state = { displayBio: true };
+    this.state = { displayBio: false };
+    console.log("Component this", this);
+    this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
+  }
+
+  toggleDisplayBio() {
+    this.setState({displayBio: !this.state.displayBio});
   }
 
   render() {
@@ -12,7 +18,7 @@ class App extends Component {
         <h1>Hello!</h1>
         <p>My name is Mike, and I'm a Software Engineer.</p>
         <p>I'm always looking forward to working on meaningful projects.</p>
-        
+
         {this.state.displayBio ? (
           <div>
             <p>
@@ -26,9 +32,13 @@ class App extends Component {
               Besides coding my hobbies include learning human languages and
               studying finance.
             </p>
+            <button onClick={this.toggleDisplayBio}>Show Less</button>
           </div>
-        ) : null}
-        
+        ) : (
+          <div>
+            <button onClick={this.toggleDisplayBio}>Read More</button>
+          </div>
+        )}
       </div>
     );
   }
