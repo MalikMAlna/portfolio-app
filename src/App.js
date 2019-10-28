@@ -6,7 +6,6 @@ class App extends Component {
 
   // constructor() {
   //   super();
-  //   console.log("Component this", this);
   //   this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
   // }
 
