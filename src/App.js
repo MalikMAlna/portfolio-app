@@ -14,13 +14,14 @@ class App extends Component {
   }
 
   render() {
+    const {displayBio = false} = this.state;
     return (
       <div>
         <h1>Hello!</h1>
         <p>My name is Mike, and I'm a Software Engineer.</p>
         <p>I'm always looking forward to working on meaningful projects.</p>
 
-        {this.state.displayBio ? (
+        {displayBio ? (
           <div>
             <p>
               I live in Indianapolis, and I try to code as often as possible.
