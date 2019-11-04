@@ -6,7 +6,7 @@ class Project extends Component {
     return (
       <div>
         <h3>{title}</h3>
-        <img src={image} alt="application"/>
+        <img src={image} alt="application" style={{width: 200, height: 120}}/>
         <p>{description}</p>
         <a href={link}>{link}</a>
       </div>
