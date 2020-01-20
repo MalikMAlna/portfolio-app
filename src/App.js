@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
+import profile from "./images/profile.jpeg";
 
 class App extends Component {
   state = { displayBio: false };
@@ -12,13 +13,14 @@ class App extends Component {
   // }
 
   toggleDisplayBio = () => {
-    this.setState({displayBio: !this.state.displayBio});
-  }
+    this.setState({ displayBio: !this.state.displayBio });
+  };
 
   render() {
-    const {displayBio = false} = this.state;
+    const { displayBio = false } = this.state;
     return (
       <div>
+        <img src={profile} alt="profile" className="profile"/>
         <h1>Hello!</h1>
         <p>My name is Mike, and I'm a Software Engineer.</p>
         <p>I'm always looking forward to working on meaningful projects.</p>
