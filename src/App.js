@@ -32,7 +32,7 @@ class App extends Component {
             </p>
             <p>
               My strongest language at this time is Javascript, and I think
-              React.js is pretty neat.
+              React.js is pretty swell.
             </p>
             <p>
               Besides coding my hobbies include learning human languages and
