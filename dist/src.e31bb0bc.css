@@ -1,0 +1,30 @@
+@font-face {
+    font-family: UbuntuCondensed;
+    src: url(/UbuntuCondensed-Regular.8e5ba9c5.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/Ubuntu-Regular.099babda.ttf);
+}
+
+
+body {
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    font-family: "Ubuntu Condensed";
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Ubuntu";
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
