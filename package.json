@@ -6,8 +6,8 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "live-server": "^1.2.1",
     "parcel-bundler": "^1.12.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "dev": "parcel src/index.html",
@@ -17,7 +17,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "@babel/core": "^7.8.3"
+    "@babel/core": "^7.9.0"
   },
   "repository": {
     "type": "git",
