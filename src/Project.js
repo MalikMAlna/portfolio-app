@@ -4,11 +4,19 @@ class Project extends Component {
   render() {
     const { title, image, description, link } = this.props.project; // Can also be object and not project
     return (
-      <div style={{display: "inline-block", width: 500, margin: 10}}>
+      <div
+        style={{ marginTop: 10, marginBottom: 10 }}
+        class="col-md-12 col-lg-4"
+      >
         <h3>{title}</h3>
-        <img src={image} alt="application-pic" style={{width: 200, height: 200}}/>
-        <p>{description}</p>
-        <a href={link}>{link}</a>
+        <a href={link}>
+          <img
+            src={image}
+            alt="application-pic"
+            style={{ width: 300, height: 220 }}
+          />
+        </a>
+        <h4 style={{ margin: 10 }}>{description}</h4>
       </div>
     );
   }
