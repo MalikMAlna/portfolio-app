@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://malikmalna.github.io/portfolio-app/",
+  "homepage": "https://malikmalna.github.io/portfolio-app/",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "bootstrap": "^4.4.1",
@@ -32,6 +32,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MalikMAlna/portfolio-app/issues"
-  },
-  "homepage": "https://github.com/MalikMAlna/portfolio-app#readme"
+  }
 }
