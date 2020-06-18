@@ -17,7 +17,6 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist",
-    "predeploy": "parcel build src/index.html",
     "deploy": "gh-pages -d build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
